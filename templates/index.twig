@@ -1,0 +1,11 @@
+{% extends 'admin.twig' %}
+
+{% set title %}{{ 'VisitorGenerator_VisitorGenerator'|translate }}{% endset %}
+
+{% block topcontrols %}
+    {% include "@CoreHome/_siteSelectHeader.twig" %}
+{% endblock %}
+
+{% block content %}
+    <div vue-entry="GoalConversionExport.GoalConversionList"/>
+{% endblock %}

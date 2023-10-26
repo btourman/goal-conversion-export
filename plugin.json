@@ -1,0 +1,39 @@
+{
+  "name": "GoalConversionExport",
+  "description": "Provide an exporter for Google Ads and Facebook Ads",
+  "version": "0.1.0",
+  "theme": false,
+  "require": {
+    "matomo": ">=4.12.3-stable,<5.0.0-b1"
+  },
+  "authors": [
+    {
+      "name": "Benjamin Tourman",
+      "email": "tourman.benjamin@gmail.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/btourman/goal-conversion-export/issues",
+    "source": "https://github.com/btourman/goal-conversion-export"
+  },
+  "homepage": "",
+  "license": "GPL v3+",
+  "keywords": [
+    "conversions",
+    "export",
+    "import",
+    "tracking",
+    "google",
+    "facebook",
+    "meta",
+    "ads",
+    "goal"
+  ],
+  "archive": {
+    "exclude": [
+      "/.git",
+      "/.gitignore",
+      "/vue/src"
+    ]
+  }
+}
